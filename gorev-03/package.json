@@ -1,0 +1,11 @@
+{
+  "name": "gorev-03-xss",
+  "version": "1.0.0",
+  "scripts": {
+    "vulnerable": "node app.js",
+    "safe": "node app-safe.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
