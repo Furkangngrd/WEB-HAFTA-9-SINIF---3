@@ -15,7 +15,7 @@ Bu depo iki ana kısımdan oluşmaktadır:
 ### 1. 📖 Güvenlik Görevleri (Dokümantasyon)
 Web uygulamalarında sıkça karşılaşılan zafiyetler ve modern güvenlik kontrolleri üzerine hazırlanmış uygulamalı senaryolardan oluşmaktadır.
 
-* **`gorev-01/`** - **`gorev-10/`**: Web güvenliğinin temellerinden başlayıp SSRF, XSS, SQLi gibi açıkları analiz eden ve çözüm önerileri sunan laboratuvar görevleri.
+* **`gorevler/`**: Web güvenliğinin temellerinden başlayıp SSRF, XSS, SQLi gibi açıkları analiz eden ve çözüm önerileri sunan 10 adet (gorev-01 - gorev-10) laboratuvar görevi.
 
 ### 2. 🛡️ SecScan Uygulaması (`secscan/`)
 SecScan, modern teknolojilerle geliştirilmiş, modüler ve güvenli bir **Web Security Scanner (Web Güvenlik Tarayıcı)** uygulamasıdır.
